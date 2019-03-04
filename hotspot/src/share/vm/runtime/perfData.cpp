@@ -289,7 +289,8 @@ void PerfDataManager::destroy() {
 
   for (int index = 0; index < _all->length(); index++) {
     PerfData* p = _all->at(index);
-    delete p;
+    //todo
+    //delete p;
   }
 
   delete(_all);

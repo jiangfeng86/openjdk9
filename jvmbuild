@@ -1,0 +1,2 @@
+export LANG=C
+make all LOG=debug  2>&1 | tee make_mac_x64.log
